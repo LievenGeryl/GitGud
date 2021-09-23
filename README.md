@@ -21,9 +21,11 @@ Via ```git init``` maak je een kersverse repository aan.
 
 > Clone
 
-Via ```git clone [URL]``` pak je een volledige remote repository, en zet je hem op de plek waar je nu bezig bent. Die "plek" is een path, en die kun je hier vinden: 
+Via ```git clone [URL]``` pak je een volledige remote repository, en zet je hem op de plek waar je nu bezig bent. Die "plek" is een path, en die kun je hier vinden:
+
 ![path](https://github.com/LievenGeryl/GitGud/blob/main/Screenshots/Path/Location.png)
-![]()
+
+
 Wanneer je een repository "cloned" sleurt hij dus alles mee naar binnen. **Hiervoor moet je dus geen** ```git init``` **doen, in theorie zul je ook maar 1x per project dit commando moeten doen**
 
 > Pull 
@@ -43,7 +45,10 @@ git push
 
 > Status
 
-```git status``` toont de files/mappen die veranderd of nieuw zijn in het rood. Hier is er een voorbeeld: **ADD SCREENSHOT STATUS**
+```git status``` toont de files/mappen die veranderd of nieuw zijn in het rood. Hier is er een voorbeeld: 
+
+![status](https://github.com/LievenGeryl/GitGud/blob/main/Screenshots/Status/Status.png)
+
 Als je deze allemaal zou klaarzetten om te committen met ```git add```, zouden ze in het groen staan, wat ook goed is. Je kunt niet veel verkeerd doen door ```git status``` in te typen, het toont gewoon welke files klaar zijn om te committen.
 
 ## Praktisch voorbeeld
@@ -51,7 +56,9 @@ Als je deze allemaal zou klaarzetten om te committen met ```git add```, zouden z
 Je krijgt een opdracht, deze opdracht is een link naar een remote repository die staat op GitHub. In de README.md zal de opdracht waarschijnlijk staan. De README zul je ook onmiddelijk zien omdat deze file "openstaat" op de GitHub pagina. De pagina die je nu leest is eigenlijk de README.
 
 In mijn voorbeeld zullen we de repository van de guide gebruiken en doen alsof het een opdracht is. De eerste stap is om alles wat op de remote repository staat, ook op onze local repository te krijgt. Maak een nieuwe map aan, of ga naar een map waar je repository in mag staan. Rechtermuisknop -> "Git bash here" en laat dit scherm open staan. Ga dan weer naar de repository op GitHub en onderneem de volgende stappen:
-**ADD SCREENSHOT HOWTOCLONE1&2**
+
+![howtoclone1](https://github.com/LievenGeryl/GitGud/blob/main/Screenshots/HoeDoeIkEenOpdracht/HowToClone.png)
+![howtoclone2](https://github.com/LievenGeryl/GitGud/blob/main/Screenshots/HoeDoeIkEenOpdracht/HowToClone2.png)
 
 Zoals je ziet heb ik hier het commando ```ls``` gebruikt. Dit was om te zien wat ik nu precies binnengehaald heb. Het is een map genaamd "GitGud", wat ook onze local repository is geworden.
 Daarna gebruik ik ```cd GitGud```. Dit is omdat we binnen in de repository willen werken, niet er buiten. 
@@ -59,7 +66,8 @@ Daarna gebruik ik ```cd GitGud```. Dit is omdat we binnen in de repository wille
 Nu kun je gewoon doen wat de opdracht je vraagt, zorg gewoon dat alle files die je uiteindelijk zal moeten "indienen/pushen" ook effectief in de map GitGud zitten of in maps die daar onder vallen.
 
 Wanneer je klaar bent, of tussentijds eens wil pushen, doe je het gewoon zo:
-**ADD SCREENSHOT HOWTOUPLOAD**
+
+![howtoupload](https://github.com/LievenGeryl/GitGud/blob/main/Screenshots/HoeDoeIkEenOpdracht/HowToUpload.png)
 
 And that's it. Dat zijn de basics. 
 
