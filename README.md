@@ -68,13 +68,10 @@ And that's it. Dat zijn de basics.
 
 * Indien je te lui bent zoals ik om rond te klikken en te doen, kun je eigenlijk redelijk wat doen in de commandolijn:
     * ```touch [filename.extension]``` maakt een lege file aan met de gekozen extention. ```touch index.html``` zou bijvoorbeeld een lege HTML pagina maken.
-
     *```mkdir [mapname]``` maakt een nieuwe map aan.
         *```mkdir``` staat voor "make directory". Een directory is een map.
-        
     *```rm [filename/mapname]``` verwijdert die file. 
         *```rm``` staat voor "remove".
-
     *```mv``` heeft twee usages. ```mv [filename] [mapname]``` laat je de file verplaatsen in een map. ```mv [filename] [filename2]``` laat je de file van naam veranderen. Dit kan in beide gevallen mislopen als er een file met die naam bestaat in dezelfde map (of in het eerste geval, de "destination" map). Dit kun je forceren door ```mv -f [filename] [filename/mapname]``` te doen. **Let wel op dat je hierdoor die file zal overwriten**.
         * ```mv``` staat voor move, ```-f``` staat voor force.
     
