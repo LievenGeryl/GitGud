@@ -76,7 +76,7 @@ And that's it. Dat zijn de basics.
 
 * Zoals je misschien zag in de laatste screenshot, deed ik ```git add .```. Door het puntje te gebruiken in plaats van een filename, "add" je eigenlijk alles dat er kan added worden. Dit spaart typwerk uit. Dit zou voor problemen kunnen zorgen wanneer je files in je local repository zet die niet op de remote repository mogen staan, maar als je aan dat stadium zit dan hoop ik dat je al weet wat je doet en dingen zoals gitignore gebruikt.
 
-* Indien je te lui bent zoals ik om rond te klikken enzo, kun je eigenlijk redelijk wat doen in de commandolijn:
+* Indien je te lui bent zoals mij om rond te klikken enzo, kun je eigenlijk redelijk wat doen in de commandolijn:
     * ```touch [filename.extension]``` maakt een lege file aan met de gekozen extention. ```touch index.html``` zou bijvoorbeeld een lege HTML pagina maken.
     * ```mkdir [mapname]``` maakt een nieuwe map aan.
         * ```mkdir``` staat voor "make directory". Een directory is een map.
@@ -89,6 +89,6 @@ And that's it. Dat zijn de basics.
 
 * ```cd``` staat voor "Change Directory", indien je de vorige tip las weet je wat directory betekent.
 
-* Als je een filename of een map wil noemen, en de naam is echt lang (zoals ```st-2122-1-S1G1-pe1-labo1-LievenGeryl```), kun je het begin van de naam intypen en dan op "TAB" duwen. Dan vult hij de rest automatisch aan.
+* Als je een filename of een map wil ingeven in je commandline, en de naam is echt lang (zoals ```st-2122-1-S1G1-pe1-labo1-LievenGeryl```), kun je het begin van de naam intypen en dan op "TAB" duwen. Dan vult hij de rest automatisch aan.
 
 * Denk je dat je teveel zit te foefelen met je local repo? Is er iets zwaar misgelopen? Begin opnieuw met een nieuw-gekloonde repository. Git maakt je workflow sneller en efficiënter, dus als je echt lang bezig bent omdat je God knows what hebt gedaan in je repo en/of mappen, begin gewoon opnieuw. Files & code kan gekopieerd worden naar de nieuwe lokale repo. Je kan alle files dus gemakkelijk terug krijgen. Hetzelfde kan niet gezegd worden over je wil om te leven of om nuchter te blijven na 3 uren lang te zitten foefelen in de commandline, om iets te doen wat eigenlijk maar 3 minuten zou moeten kosten.
