@@ -21,7 +21,9 @@ Via ```git init``` maak je een kersverse repository aan.
 
 > Clone
 
-Via ```git clone [URL]``` pak je een volledige remote repository, en zet je hem op de plek waar je nu bezig bent. Die "plek" is een path, en die kun je hier vinden: **ADD SCREENSHOT "PATH/LOCATION"**
+Via ```git clone [URL]``` pak je een volledige remote repository, en zet je hem op de plek waar je nu bezig bent. Die "plek" is een path, en die kun je hier vinden: 
+![path](https://github.com/LievenGeryl/GitGud/blob/main/Screenshots/Path/Location.png)
+![]()
 Wanneer je een repository "cloned" sleurt hij dus alles mee naar binnen. **Hiervoor moet je dus geen** ```git init``` **doen, in theorie zul je ook maar 1x per project dit commando moeten doen**
 
 > Pull 
