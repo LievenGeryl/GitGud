@@ -7,24 +7,30 @@
 ## Begrippen & concepten
 
 > Local repository
+
 Je map die je gecloned hebt van de "remote repository" (Zie volgend begrip), of wat je gemaakt hebt met ```git init```. Alle mappen en files die hier "onder" zitten, zouden normaal gezien moeten bij je local repository moeten horen.
 
 > Remote repository
+
 Deze repository is, for all intents & purposes, wat er op GitHub staat. Als je niet actief bezig bent met programmeren, zou de remote repository dus ook de laatste nieuwe versie moeten hebben van je code. Dit is handig omdat je dus ook zonder problemen kan verder werken aan je code op een ander toestel die ook Git heeft, door deze repository gewoon te clonen.
 
 > Init
+
 Via ```git init``` maak je een kersverse repository aan. 
 **Let op:** In veel gevallen zul je dit commando eigenlijk niet nodig hebben voor opdrachten waar je een link naar GitHub gekregen hebt. Het is misschien één van de eerste commando's dat we geleerd hebben, maar dat betekent niet dat het ook het meest gebruikte commando is!
 
 > Clone
+
 Via ```git clone [URL]``` pak je een volledige remote repository, en zet je hem op de plek waar je nu bezig bent. Die "plek" is een path, en die kun je hier vinden: **ADD SCREENSHOT "PATH/LOCATION"**
 Wanneer je een repository "cloned" sleurt hij dus alles mee naar binnen. **Hiervoor moet je dus geen** ```git init``` **doen, in theorie zul je ook maar 1x per project dit commando moeten doen**
 
 > Pull 
+
 Wanneer je  ```git pull``` doet, vergelijkt het commando de files en mappen in je local repository met die van de remote repository. Indien er files of mappen op de **remote** repository zijn die niet in je local repository zijn, zal hij deze "downloaden" en op de juiste plek zetten zodat het de mappenstructuur die op je remote repository staat te simuleren. 
 **Dit commando moet je niet gebruiken net nadat je gecloned hebt,** en zul je dus waarschijnlijk niet vaak gebruiken wanneer je alleen werkt. Wel is dit commando handig wanneer je bijvoorbeeld een website ontwerpt samen met iemand anders. Die persoon kan bijvoorbeeld enkele nieuwe pagina's (HTML files dus) gemaakt & op GitHub gezet hebben terwijl je bezig was met iets anders. Door een "pull" te doen kun je dus deze pagina's gemakkelijk ook in je local repository hebben.
 
 > Add, Commit, Push
+
 Wanneer je blij bent met de veranderingen in je code, zal je vast en zeker alles mooi op GitHub willen smijten omdat het daar ook is waar we de meeste oefeningen zullen "indienen" omdat onze Remote Repositories door de lectoren kunnen bekeken (en dus ook "verbeterd") kunnen worden. 
 De volgorde hier is als volgt:
 ```
@@ -34,6 +40,7 @@ git push
 ```
 
 > Status
+
 ```git status``` toont de files/mappen die veranderd of nieuw zijn in het rood. Hier is er een voorbeeld: **ADD SCREENSHOT STATUS**
 Als je deze allemaal zou klaarzetten om te committen met ```git add```, zouden ze in het groen staan, wat ook goed is. Je kunt niet veel verkeerd doen door ```git status``` in te typen, het toont gewoon welke files klaar zijn om te committen.
 
