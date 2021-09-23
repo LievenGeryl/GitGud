@@ -1,6 +1,6 @@
 # GitGud: The Basics
 
-*Disclaimer: I suck at Markdown*
+*Disclaimer: Als er hier iets niet overeenkomt met wat de lector zegt of wat in de cursus staat, ben ik verkeerd. Zeg het mij ook AUB. Deze guide is zeer basic en zegt niks over branches of het linken van een lege, lokale repo met een remote repo of wat dan ook. Hier zul je geen gedoe zoals "remote branch origin master big chungus 3000 rm -rf" vinden. Oh and I suck at Markdown*
 
 **Note: Alles wat tussen vierkante haakjes([]) staat, inclusief de vierkante haakjes zelf, zijn dingen waar je dus ook je eigen input moet geven. Ik weet uiteraard niet welke commit messages je zult gebruiken of wat de link naar jouw remote repository is**
 
@@ -74,4 +74,9 @@ And that's it. Dat zijn de basics.
         * ```rm``` staat voor "remove".
     * ```mv``` heeft twee usages. ```mv [filename] [mapname]``` laat je de file verplaatsen in een map. ```mv [filename] [filename2]``` laat je de file van naam veranderen. Dit kan in beide gevallen mislopen als er een file met die naam bestaat in dezelfde map (of in het eerste geval, de "destination" map). Dit kun je forceren door ```mv -f [filename] [filename/mapname]``` te doen. **Let wel op dat je hierdoor die file zal overwriten**.
         * ```mv``` staat voor move, ```-f``` staat voor force.
-    
+
+* ```cd``` staat voor "Change Directory", indien je de vorige tip las weet je wat directory betekent.
+
+* Als je een filename of een map wil noemen, en de naam is echt lang (zoals ```st-2122-1-S1G1-pe1-labo1-LievenGeryl```), kun je het begin van de naam intypen en dan op "TAB" duwen. Dan vult hij de rest automatisch aan.
+
+* Denk je dat je teveel zit te foefelen met je local repo? Is er iets zwaar misgelopen? Begin opnieuw met een nieuw-gekloonde repository. Git maakt je workflow sneller en efficiënter, dus als je echt lang bezig bent omdat je God knows what hebt gedaan in je repo en/of mappen, begin gewoon opnieuw. Files & code kan gekopieerd worden naar de nieuwe lokale repo. Je kan alle files dus gemakkelijk terug krijgen. Hetzelfde kan niet gezegd worden over je wil om te leven of om nuchter te blijven na 3 uren lang te zitten foefelen in de commandline, om iets te doen wat eigenlijk maar 3 minuten zou moeten kosten.
