@@ -51,9 +51,30 @@ Je krijgt een opdracht, deze opdracht is een link naar een remote repository die
 In mijn voorbeeld zullen we de repository van de guide gebruiken en doen alsof het een opdracht is. De eerste stap is om alles wat op de remote repository staat, ook op onze local repository te krijgt. Maak een nieuwe map aan, of ga naar een map waar je repository in mag staan. Rechtermuisknop -> "Git bash here" en laat dit scherm open staan. Ga dan weer naar de repository op GitHub en onderneem de volgende stappen:
 **ADD SCREENSHOT HOWTOCLONE1&2**
 
-Zoals je ziet heb ik hier het commando "ls" gebruikt. Dit was om te zien wat ik nu precies binnengehaald heb. Het is een map genaamd "GitGud", wat ook onze local repository is geworden.
+Zoals je ziet heb ik hier het commando ```ls``` gebruikt. Dit was om te zien wat ik nu precies binnengehaald heb. Het is een map genaamd "GitGud", wat ook onze local repository is geworden.
 Daarna gebruik ik ```cd GitGud```. Dit is omdat we binnen in de repository willen werken, niet er buiten. 
 
 Nu kun je gewoon doen wat de opdracht je vraagt, zorg gewoon dat alle files die je uiteindelijk zal moeten "indienen/pushen" ook effectief in de map GitGud zitten of in maps die daar onder vallen.
 
-## Tips
+Wanneer je klaar bent, of tussentijds eens wil pushen, doe je het gewoon zo:
+**ADD SCREENSHOT HOWTOUPLOAD**
+
+And that's it. Dat zijn de basics. 
+
+
+## Additional Tips
+
+* Zoals je misschien zag in de laatste screenshot, deed ik ```git add .```. Door het puntje te gebruiken in plaats van een filename, "add" je eigenlijk alles dat er kan added worden. Dit spaart typwerk uit. Dit zou voor problemen kunnen zorgen wanneer je files in je local repository zet die niet op de remote repository mogen staan, maar als je aan dat stadium zit dan hoop ik dat je al weet wat je doet en dingen zoals gitignore gebruikt.
+
+* Indien je te lui bent zoals ik om rond te klikken en te doen, kun je eigenlijk redelijk wat doen in de commandolijn:
+    * ```touch [filename.extension]``` maakt een lege file aan met de gekozen extention. ```touch index.html``` zou bijvoorbeeld een lege HTML pagina maken.
+
+    *```mkdir [mapname]``` maakt een nieuwe map aan.
+        *```mkdir``` staat voor "make directory". Een directory is een map.
+        
+    *```rm [filename/mapname]``` verwijdert die file. 
+        *```rm``` staat voor "remove".
+
+    *```mv``` heeft twee usages. ```mv [filename] [mapname]``` laat je de file verplaatsen in een map. ```mv [filename] [filename2]``` laat je de file van naam veranderen. Dit kan in beide gevallen mislopen als er een file met die naam bestaat in dezelfde map (of in het eerste geval, de "destination" map). Dit kun je forceren door ```mv -f [filename] [filename/mapname]``` te doen. **Let wel op dat je hierdoor die file zal overwriten**.
+        * ```mv``` staat voor move, ```-f``` staat voor force.
+    
