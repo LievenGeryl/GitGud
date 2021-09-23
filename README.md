@@ -76,7 +76,7 @@ And that's it. Dat zijn de basics.
 
 * Zoals je misschien zag in de laatste screenshot, deed ik ```git add .```. Door het puntje te gebruiken in plaats van een filename, "add" je eigenlijk alles dat er kan added worden. Dit spaart typwerk uit. Dit zou voor problemen kunnen zorgen wanneer je files in je local repository zet die niet op de remote repository mogen staan, maar als je aan dat stadium zit dan hoop ik dat je al weet wat je doet en dingen zoals gitignore gebruikt.
 
-* Indien je te lui bent zoals ik om rond te klikken en te doen, kun je eigenlijk redelijk wat doen in de commandolijn:
+* Indien je te lui bent zoals ik om rond te klikken enzo, kun je eigenlijk redelijk wat doen in de commandolijn:
     * ```touch [filename.extension]``` maakt een lege file aan met de gekozen extention. ```touch index.html``` zou bijvoorbeeld een lege HTML pagina maken.
     * ```mkdir [mapname]``` maakt een nieuwe map aan.
         * ```mkdir``` staat voor "make directory". Een directory is een map.
@@ -84,6 +84,8 @@ And that's it. Dat zijn de basics.
         * ```rm``` staat voor "remove".
     * ```mv``` heeft twee usages. ```mv [filename] [mapname]``` laat je de file verplaatsen in een map. ```mv [filename] [filename2]``` laat je de file van naam veranderen. Dit kan in beide gevallen mislopen als er een file met die naam bestaat in dezelfde map (of in het eerste geval, de "destination" map). Dit kun je forceren door ```mv -f [filename] [filename/mapname]``` te doen. **Let wel op dat je hierdoor die file zal overwriten**.
         * ```mv``` staat voor move, ```-f``` staat voor force.
+    * Veel hiervan zijn commando's die in linux voorkomen, waarmee jullie binnenkort nog zullen werken.
+
 
 * ```cd``` staat voor "Change Directory", indien je de vorige tip las weet je wat directory betekent.
 
