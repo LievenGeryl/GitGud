@@ -55,7 +55,7 @@ Als je deze allemaal zou klaarzetten om te committen met ```git add```, zouden z
 
 Je krijgt een opdracht, deze opdracht is een link naar een remote repository die staat op GitHub. In de README.md zal de opdracht waarschijnlijk staan. De README zul je ook onmiddelijk zien omdat deze file "openstaat" op de GitHub pagina. De pagina die je nu leest is eigenlijk de README.
 
-In mijn voorbeeld zullen we de repository van de guide gebruiken en doen alsof het een opdracht is. De eerste stap is om alles wat op de remote repository staat, ook op onze local repository te krijgt. Maak een nieuwe map aan, of ga naar een map waar je repository in mag staan. Rechtermuisknop -> "Git bash here" en laat dit scherm open staan. Ga dan weer naar de repository op GitHub en onderneem de volgende stappen:
+In mijn voorbeeld zullen we de repository van de guide gebruiken en doen alsof het een opdracht is. De eerste stap is om alles wat op de remote repository staat, ook op onze local repository te krijgen. Maak een nieuwe map aan, of ga naar een map waar je repository in mag staan. Rechtermuisknop -> "Git bash here" en laat dit scherm open staan. Ga dan weer naar de repository op GitHub en onderneem de volgende stappen:
 
 ![howtoclone1](https://github.com/LievenGeryl/GitGud/blob/main/Screenshots/HoeDoeIkEenOpdracht/HowToClone.png)
 ![howtoclone2](https://github.com/LievenGeryl/GitGud/blob/main/Screenshots/HoeDoeIkEenOpdracht/HowToClone2.png)
